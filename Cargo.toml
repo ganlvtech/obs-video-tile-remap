@@ -1,0 +1,16 @@
+[package]
+name = "obs-video-tile-remap"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+bindings = { path = "./bindings" }
+uv_map = { path = "./uv_map" }
+
+[build-dependencies]
+cc = { version = "1.0" }
