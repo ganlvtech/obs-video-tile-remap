@@ -54,7 +54,7 @@ OBS 插件和 WebGL 均使用显卡进行渲染，仅需一个 Vertex Shader，�
 
 安装 Tampermonkey 浏览器插件 https://www.tampermonkey.net/ ，Chrome 浏览器和 Edge 浏览器都可以直接在商店进行安装。
 
-然后访问 https://raw.githubusercontent.com/ganlvtech/obs-video-tile-remap/main/userscripts/video_decode.user.js 安装视频解码脚本。
+然后访问 https://github.com/ganlvtech/obs-video-tile-remap/raw/main/userscripts/video_decode.user.js 安装视频解码脚本。
 
 然后访问任意直播间，在右上角的插件中找到“obs-video-tile-remap 解码”
 
